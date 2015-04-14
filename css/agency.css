@@ -176,9 +176,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 1px;
-  color: white;
+  color: #000;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -194,6 +194,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav > .active > a:focus {
   color: white;
   background-color: #fec503;
+}
+.navbar-default.navbar-shrink .nav li a {
+  color: #fff;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -220,6 +223,14 @@ fieldset[disabled] .btn-xl.active {
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
+  .navbar-default .lpg-home {
+    font-size: 30px;
+    color: #000;
+  }
+  .navbar-default.navbar-shrink .lpg-home {
+    font-size: 30px;
+    color: #fff;
+  }
 }
 header {
   background-image: url('../photos/front1500.jpg');
@@ -241,10 +252,10 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 20px;
   margin: 0px;
-  padding: 20px;
+  padding: 10px;
   background: rgba(255, 255, 255, 0.5);
 }
 @media (min-width: 768px) {
@@ -257,10 +268,10 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
     margin: 0px;
-    padding: 22px;
+    padding: 15px;
     background: rgba(255, 255, 255, 0.5);
   }
 }
