@@ -145,6 +145,10 @@ fieldset[disabled] .btn-xl.active {
   background-color: #222222;
   border-color: transparent;
 }
+.navbar-default .lpg-home {
+  font-size: 30px;
+  color: #ffffff;
+}
 .navbar-default .navbar-brand {
   color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
@@ -240,7 +244,7 @@ header .intro-text .intro-heading {
   font-size: 30px;
   line-height: 30px;
   margin: 0px;
-  padding: 16px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.5);
 }
 @media (min-width: 768px) {
@@ -256,7 +260,7 @@ header .intro-text .intro-heading {
     font-size: 40px;
     line-height: 40px;
     margin: 0px;
-    padding: 18px;
+    padding: 22px;
     background: rgba(255, 255, 255, 0.5);
   }
 }
