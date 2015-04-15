@@ -11,7 +11,12 @@
    changetxt = lpgchange['text'];
    $('#change-text').html(changetxt);
 
+   larrybio = lpgbios['larry'];
+   $('#bio1').html(larrybio);
+   mikebio = lpgbios['mike'];
+   $('#bio2').html(mikebio);
    scarlettbio = lpgbios['scarlett'];
+   $('#bio3').html(scarlettbio);
  });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
