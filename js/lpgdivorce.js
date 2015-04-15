@@ -4,6 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ $(document).ready(function(e) {
+   apprtxt = lpgapproach['text'];
+   $('#approach-text').html(apprtxt);
+
+   changetxt = lpgchange['text'];
+   $('#change-text').html(changetxt);
+
+   scarlettbio = lpgbios['scarlett'];
+ });
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
