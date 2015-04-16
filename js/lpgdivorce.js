@@ -5,12 +5,10 @@
  */
 
  $(document).ready(function(e) {
-   apprtxt = 'fjkdsl';
-   changetxt = 'fdserw';
-   //apprtxt = lpgpractice['approach'];
+   apprtxt = lpgpractice['approach'];
    $('#approach-text').html(apprtxt);
 
-   //changetxt = lpgpractice['changing'];
+   changetxt = lpgpractice['changing'];
    $('#change-text').html(changetxt);
 
    larrybio = lpgbios['larry'];

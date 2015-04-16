@@ -81,6 +81,15 @@ h6 {
   min-width: 300px;
   padding: 0px 5px 0px 5px;
 }
+.practice-header {
+  margin-bottom: 20px;
+}
+.realitytitle {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
 .realityimg {
   border-width: 3px;
   border-style: solid;
