@@ -63,6 +63,28 @@ h6 {
   margin: 15px 0;
   text-transform: none;
 }
+.videoset {
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  width: 100%;
+}
+.videomargin {
+  margin: 20px 0px 60px 0px;
+}
+.videotext {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.videobox {
+  min-width: 300px;
+  padding: 0px 5px 0px 5px;
+  /*border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;*/
+}
 .btn-primary {
   color: white;
   background-color: #fed136;
