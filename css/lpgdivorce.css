@@ -50,6 +50,19 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+.testimonial-img {
+  width: 100px;
+}
+.testimonial-img-box {
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+.testimonial-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
 .btn-primary {
   color: white;
   background-color: #fed136;
