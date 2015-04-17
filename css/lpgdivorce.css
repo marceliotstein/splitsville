@@ -86,24 +86,41 @@ h6 {
   margin-top: 0px;
   margin-bottom: 20px;
 }
-.realitysection {
-  padding-bottom: 60px;
-  margin-bottom: 60px;
-  border-bottom-width: 6px;
-  border-bottom-style: dotted;
-  border-bottom-color: black;
+.storycell {
+  width: 50%;
+  vertical-align: middle;
 }
-.realitytitle {
+.storysection {
+  padding: 20px 0px 20px 0px;
+  border-radius: 9px;
+  background-color: #ccccee;
+  margin-bottom: 20px;
+}
+.storytitle {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 12px;
+  text-align: center;
 }
-.realityimg {
+.imgborder {
   border-width: 3px;
   border-style: solid;
   border-color: black;
+}
+.storyimgnarrow {
   text-align: center;
+}
+.storyimgwide {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+.storytxtnarrow {
+  padding: 25px 5px 25px 5px;
+  max-width: 690px;
+}
+.storytxtwide {
+  padding: 15px;
 }
 .btn-primary {
   color: white;
@@ -231,6 +248,10 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  -webkit-text-fill-color: black;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
   font-weight: 700;
   letter-spacing: 1px;
   color: #000;
