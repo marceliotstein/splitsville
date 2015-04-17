@@ -11,6 +11,12 @@
    changetxt = lpgpractice['changing'];
    $('#change-text').html(changetxt);
 
+   childrentxt = lpgpractice['children'];
+   $('#children-text').html(childrentxt);
+
+   stakestxt = lpgpractice[''];
+   $('#stakes-text').html(stakestxt);
+
    larrybio = lpgbios['larry'];
    $('#bio1').html(larrybio);
    mikebio = lpgbios['mike'];
