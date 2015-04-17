@@ -14,13 +14,15 @@
    childrentxt = lpgpractice['children'];
    $('#children-text').html(childrentxt);
 
-   stakestxt = lpgpractice[''];
+   stakestxt = lpgpractice['stakes'];
    $('#stakes-text').html(stakestxt);
 
    larrybio = lpgbios['larry'];
    $('#bio1').html(larrybio);
+
    mikebio = lpgbios['mike'];
    $('#bio2').html(mikebio);
+
    scarlettbio = lpgbios['scarlett'];
    $('#bio3').html(scarlettbio);
  });
