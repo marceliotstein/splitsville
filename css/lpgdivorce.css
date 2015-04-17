@@ -246,10 +246,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  -webkit-text-fill-color: black;
-  /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
   font-weight: 700;
   letter-spacing: 1px;
   color: #000;
