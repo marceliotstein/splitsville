@@ -99,7 +99,7 @@ h6 {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 12px;
+  padding: 20px 0px 15px 0px;
   text-align: center;
 }
 .imgborder {
@@ -112,9 +112,11 @@ h6 {
 }
 .storytxtinner {
   text-align: left;
+  padding: 0px;
+  margin: 0px;
 }
 .storytxt {
-  padding: 25px 0px 25px 0px;
+  padding: 0px;
   max-width: 690px;
   margin: 0 auto;
 }
@@ -625,7 +627,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../photos/fierce577.jpg');
+  /*background-image: url('../photos/fierce577.jpg');*/
   background-position: center;
   background-repeat: no-repeat;
 }

@@ -17,6 +17,21 @@
    stakestxt = lpgpractice['stakes'];
    $('#stakes-text').html(stakestxt);
 
+   newyorktxt = lpgpractice['newyork'];
+   $('#newyork-text').html(newyorktxt);
+
+   landmarktxt = lpgpractice['landmark'];
+   $('#landmark-text').html(landmarktxt);
+
+   controltxt = lpgpractice['control'];
+   $('#control-text').html(controltxt);
+
+   teamtxt = lpgpractice['team'];
+   $('#team-text').html(teamtxt);
+
+   begintxt = lpgpractice['begin'];
+   $('#begin-text').html(begintxt);
+
    larrybio = lpgbios['larry'];
    $('#bio1').html(larrybio);
 
