@@ -315,8 +315,9 @@ header {
   color: black;
 }
 header .intro-text {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  min-height: 500px;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
