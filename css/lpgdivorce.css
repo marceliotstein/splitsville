@@ -315,18 +315,18 @@ header {
   color: black;
 }
 header .intro-text {
-  padding-top: 250px;
-  padding-bottom: 250px;
-  min-height: 500px;
+  padding-top: 210px;
+  padding-bottom: 210px;
+  min-height: 420px;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 14px;
   margin: 0px;
-  padding: 10px;
+  padding: 4px;
   background: rgba(255, 255, 255, 0.5);
 }
 @media (min-width: 768px) {
