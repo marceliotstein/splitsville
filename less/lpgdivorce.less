@@ -299,12 +299,34 @@ header {
 	}
 }
 
+
 @media(min-width:768px) {
 	header {
 		.intro-text {
 			text-align: right;
 			padding-top: 250px;
 			padding-bottom: 250px;
+			min-height: 500px;
+			.intro-heading {
+				.heading-font;
+				font-weight: 700;
+				font-size: 30px;
+				line-height: 30px;
+				margin: 0px;
+				padding: 15px;
+				background: rgba(255, 255, 255, .5);
+			}
+		}
+	}
+}
+
+@media(min-width:1200px) {
+	header {
+		background-image: url('../photos/lpgfrontwide.jpg');
+		.intro-text {
+			text-align: right;
+			padding-top: 500px;
+			min-height: 1000px;
 			.intro-heading {
 				.heading-font;
 				font-weight: 700;
