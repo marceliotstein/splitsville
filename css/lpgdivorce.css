@@ -7,11 +7,11 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #36b1de;
+  color: #2255aa;
 }
 p {
   font-size: 14px;
-  line-height: 1.75;
+  /*line-height: 1.75;*/
 }
 p.large {
   font-size: 16px;
@@ -24,13 +24,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #36b1de;
+  color: #2255aa;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #2096c1;
+  color: #19407f;
 }
 h1,
 h2,
@@ -50,6 +50,11 @@ h6 {
 }
 .bg-darkest-gray {
   background-color: #222222;
+}
+.bio {
+  margin-top: 15px;
+  text-align: left;
+  line-height: 17px;
 }
 .testimonial-img {
   width: 100px;
@@ -125,8 +130,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #36b1de;
-  border-color: #36b1de;
+  background-color: #2255aa;
+  border-color: #2255aa;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -137,8 +142,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #2096c1;
-  border-color: #1e8fb9;
+  background-color: #19407f;
+  border-color: #183b77;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -160,17 +165,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #36b1de;
-  border-color: #36b1de;
+  background-color: #2255aa;
+  border-color: #2255aa;
 }
 .btn-primary .badge {
-  color: #36b1de;
+  color: #2255aa;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #36b1de;
-  border-color: #36b1de;
+  background-color: #2255aa;
+  border-color: #2255aa;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -184,8 +189,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #2096c1;
-  border-color: #1e8fb9;
+  background-color: #19407f;
+  border-color: #183b77;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -207,11 +212,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #36b1de;
-  border-color: #36b1de;
+  background-color: #2255aa;
+  border-color: #2255aa;
 }
 .btn-xl .badge {
-  color: #36b1de;
+  color: #2255aa;
   background-color: white;
 }
 .navbar-default {
@@ -223,28 +228,28 @@ fieldset[disabled] .btn-xl.active {
   color: #ffffff;
 }
 .navbar-default .navbar-brand {
-  color: #36b1de;
+  color: #2255aa;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #2096c1;
+  color: #19407f;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
-  background-color: #36b1de;
-  border-color: #36b1de;
+  background-color: #2255aa;
+  border-color: #2255aa;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #36b1de;
+  background-color: #2255aa;
 }
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -255,18 +260,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #36b1de;
+  color: #2255aa;
   outline: none;
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #36b1de;
+  background-color: #2255aa;
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #2096c1;
+  background-color: #19407f;
 }
 .navbar-default.navbar-shrink .nav li a {
   color: #fff;
@@ -406,7 +411,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(54, 177, 222, 0.9);
+  background: rgba(34, 85, 170, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -514,7 +519,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #36b1de;
+  background-color: #2255aa;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -669,7 +674,7 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #36b1de;
+  border-color: #2255aa;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -738,7 +743,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #36b1de;
+  background-color: #2255aa;
 }
 .btn:focus,
 .btn:active,
@@ -817,11 +822,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #36b1de;
+  background: #2255aa;
 }
 ::selection {
   text-shadow: none;
-  background: #36b1de;
+  background: #2255aa;
 }
 img::selection {
   background: transparent;
@@ -830,5 +835,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #36b1de;
+  webkit-tap-highlight-color: #2255aa;
 }
