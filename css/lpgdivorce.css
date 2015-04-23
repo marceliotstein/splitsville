@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -69,23 +70,19 @@ h6 {
   padding: 0px;
   width: 100%;
 }
-.videomargin {
+.videowrapper {
   margin: 20px 0px 60px 0px;
-  border-width: 1px;
-  border-style: dashed;
-  border-color: blue;
+  padding: 20px 20px 20px 20px;
+  background-color: #393939;
+  border-radius: 9px;
 }
 .videotext {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-weight: 700;
-}
-.videobox {
-  min-width: 300px;
-  padding: 0px 5px 0px 5px;
-  border-width: 1px;
-  border-style: dashed;
-  border-color: yellow;
+  font-weight: 400;
+  color: #ffffff;
 }
 .practice-header {
   padding-top: 0px;
@@ -102,7 +99,7 @@ h6 {
   text-align: center;
 }
 .storytitle {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 700;
   padding: 20px 0px 15px 0px;
