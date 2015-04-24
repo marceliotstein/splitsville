@@ -97,20 +97,22 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-.videowrapper {
+.videowrap {
   margin: 20px 0px 60px 0px;
 	padding: 20px 20px 20px 20px;
-	background-color: #393939;
-	border-radius: 9px;
+	background-color: @brand-primary;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
 }
 
 .videotext {
-	padding: 0px 0px 10px 0px;
+	padding: 50px 0px 10px 0px;
 	text-align: center;
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px;
   font-weight: 400;
-	color: #ffffff;
+	color: #000000;
 }
 
 // Our Practice styling
@@ -287,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
 	background-image: url('../photos/lpgfront.jpg');
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
 	.background-cover;
@@ -666,6 +668,29 @@ aside.clients {
 }
 
 // Contact Section
+
+.lpgform {
+	width: 444px;
+}
+
+.contactwrap {
+	height: 550px;
+}
+
+.contactform {
+	padding: 10px;
+}
+
+.contactbutton {
+	padding: 20px 0px 0px 0px;
+}
+
+.contactpic {
+	/*border-color: @brand-primary;
+	border-width: 2px;
+	border-style: solid;*/
+	height: 100%;
+}
 
 section#contact {
 	background-color: @gray-darkest;
