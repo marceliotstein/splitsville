@@ -669,26 +669,43 @@ aside.clients {
 
 // Contact Section
 
+.contact-table {
+  border-width: 1px;
+	border-color: yellow;
+	border-style: solid;
+}
+
+.contact-td {
+	width: 450px;
+	vertical-align: middle;
+	text-align: center;
+}
+
 .lpgform {
 	width: 444px;
 }
 
+.lpgform-max {
+	height: 100%;
+}
+
 .contactwrap {
 	height: 550px;
+	width: 900px;
+	text-align: center;
 }
 
 .contactform {
-	padding: 10px;
+	padding: 20px 0px 20px 0px;
 }
 
 .contactbutton {
-	padding: 20px 0px 0px 0px;
+	text-align: center;
+	padding: 10px 0px 20px 0px;
 }
 
 .contactpic {
-	/*border-color: @brand-primary;
-	border-width: 2px;
-	border-style: solid;*/
+  padding: 20px 20px 20px 20px;
 	height: 100%;
 }
 
@@ -712,6 +729,7 @@ section#contact {
 		textarea.form-control {
 			height: 236px;
 		}
+		float: right;
 	}
 	.form-control:focus {
 		border-color: @brand-primary;
