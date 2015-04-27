@@ -51,6 +51,11 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+.height-responsive {
+  display: block;
+  width: auto;
+  max-height: 100%;
+}
 .bio {
   margin-top: 15px;
   text-align: left;
@@ -654,9 +659,7 @@ aside.clients img {
   margin: 50px auto;
 }
 .contact-table {
-  border-width: 1px;
-  border-color: yellow;
-  border-style: solid;
+  background-color: #555;
 }
 .contact-td {
   width: 450px;
@@ -675,7 +678,7 @@ aside.clients img {
   text-align: center;
 }
 .contactform {
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 20px 20px;
 }
 .contactbutton {
   text-align: center;
@@ -683,7 +686,6 @@ aside.clients img {
 }
 .contactpic {
   padding: 20px 20px 20px 20px;
-  height: 100%;
 }
 section#contact {
   background-color: #222222;
