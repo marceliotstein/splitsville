@@ -672,23 +672,32 @@ aside.clients img {
 .lpgform-max {
   height: 100%;
 }
-.contactwrap {
-  height: 550px;
+.contactwrap-wide {
   width: 900px;
   text-align: center;
 }
-.contactform {
+.contactwrap-narrow {
+  text-align: center;
+}
+.contactform-wide {
   padding: 20px 0px 20px 20px;
 }
 .contactbutton {
   text-align: center;
   padding: 10px 0px 20px 0px;
 }
-.contactpic {
+.contactpic-wide {
   padding: 20px 20px 20px 20px;
 }
+.contactpic-narrow {
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+.contactpicbox-narrow {
+  text-align: center;
+}
 section#contact {
-  min-height: 1400px;
   background-color: #222222;
   background-position: center;
   background-repeat: no-repeat;
@@ -698,7 +707,7 @@ section#contact .section-heading {
 }
 section#contact .form-group {
   margin-bottom: 25px;
-  float: right;
+  /*float: right;*/
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
@@ -706,9 +715,13 @@ section#contact .form-group textarea {
 }
 section#contact .form-group input.form-control {
   height: auto;
+  text-align: center;
+  display: inline;
 }
 section#contact .form-group textarea.form-control {
   height: 236px;
+  text-align: center;
+  display: inline;
 }
 section#contact .form-control:focus {
   border-color: #2255aa;
@@ -743,6 +756,15 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #e74c3c;
 }
+.contactform-wide.form-group {
+  float: right;
+}
+.contactwrap-narrow {
+  text-align: center;
+}
+.contactform-narrow {
+  text-align: center;
+}
 footer {
   padding: 25px 0;
   text-align: center;
@@ -759,6 +781,9 @@ footer ul.quicklinks {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+}
+.contact {
+  font-weight: bold;
 }
 ul.social-buttons {
   margin-bottom: 0;

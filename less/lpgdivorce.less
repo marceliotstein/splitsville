@@ -695,14 +695,20 @@ aside.clients {
 	height: 100%;
 }
 
-.contactwrap {
-	height: 550px;
+.contactwrap-wide {
 	width: 900px;
 	text-align: center;
 }
 
-.contactform {
+.contactwrap-narrow {
+	text-align: center;
+}
+
+.contactform-wide {
 	padding: 20px 0px 20px 20px;
+}
+
+.contactform-narrow {
 }
 
 .contactbutton {
@@ -710,12 +716,21 @@ aside.clients {
 	padding: 10px 0px 20px 0px;
 }
 
-.contactpic {
+.contactpic-wide {
   padding: 20px 20px 20px 20px;
 }
 
+.contactpic-narrow {
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;
+}
+
+.contactpicbox-narrow {
+	text-align: center;
+}
+
 section#contact {
-	min-height: 1400px;
 	background-color: @gray-darkest;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -730,11 +745,15 @@ section#contact {
 		}
 		input.form-control {
 			height: auto;
+			text-align: center;
+			display: inline;
 		}
 		textarea.form-control {
 			height: 236px;
+			text-align: center;
+			display: inline;
 		}
-		float: right;
+		/*float: right;*/
 	}
 	.form-control:focus {
 		border-color: @brand-primary;
@@ -765,6 +784,18 @@ section#contact {
 	}
 }
 
+.contactform-wide.form-group {
+	float: right;
+}
+
+.contactwrap-narrow {
+	text-align: center;
+}
+
+.contactform-narrow {
+	text-align: center;
+}
+
 // Footer
 
 footer {
@@ -781,6 +812,10 @@ footer {
 		.heading-font;
 		text-transform: none;
 	}
+}
+
+.contact {
+	font-weight: bold;
 }
 
 // Social Buttons
