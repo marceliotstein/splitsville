@@ -673,8 +673,11 @@ aside.clients img {
   vertical-align: middle;
   text-align: center;
 }
-.lpgform {
+.lpgform-wide {
   width: 444px;
+}
+.lpgform-narrow {
+  width: 80%;
 }
 .lpgform-max {
   height: 100%;
