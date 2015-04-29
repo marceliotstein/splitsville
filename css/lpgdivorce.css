@@ -63,12 +63,19 @@ h6 {
 }
 .testimonial-img {
   width: 100px;
-}
-.testimonial-img-box {
+  padding: 10px;
   border-width: 1px;
   border-radius: 5px;
   border-style: solid;
   border-color: black;
+}
+.testimonial-img-box {
+  margin-top: 60px;
+}
+@media (min-width: 992px) {
+  .testimonial-img-box {
+    margin-top: 0px;
+  }
 }
 .testimonial-heading {
   margin: 15px 0;

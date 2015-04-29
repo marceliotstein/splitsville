@@ -82,13 +82,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .testimonial-img {
   width: 100px;
+	padding: 10px;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
 }
 
 .testimonial-img-box {
-  border-width: 1px;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: black;
+	margin-top: 60px;
+}
+
+@media(min-width:992px) {
+  .testimonial-img-box {
+   	margin-top: 0px;
+	}
 }
 
 .testimonial-heading {
