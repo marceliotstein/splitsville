@@ -3,6 +3,7 @@
 // Check for empty fields
 // may be either wide or narrow set
 
+/*
 if (!empty($_POST['name-wide'])) {
   $name = $_POST['name-wide'];
 } else {
@@ -25,6 +26,20 @@ if (!empty($_POST['message-wide'])) {
   $message = $_POST['message-wide'];
 } else {
   $message = $_POST['message-narrow'];
+}
+*/
+
+if (!empty($_POST['name-wide'])) {
+  $name = $_POST['name'];
+}
+if (!empty($_POST['email'])) {
+  $email = $_POST['email'];
+}
+if (!empty($_POST['phone'])) {
+  $phone = $_POST['phone'];
+}
+if (!empty($_POST['message'])) {
+  $message = $_POST['message'];
 }
 
 if (empty($name) 	||
