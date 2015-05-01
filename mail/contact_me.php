@@ -1,26 +1,46 @@
 <?php
+
 // Check for empty fields
-if(empty($_POST['name'])  		||
-   empty($_POST['email']) 		||
-   empty($_POST['phone']) 		||
-   empty($_POST['message'])	||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
-   {
+// may be either wide or narrow set
+
+if (!empty($_POST['name-wide'])) {
+  $in_name = $_POST['name-wide'];
+} else {
+  $in_name = $_POST['name-narrow'];
+}
+
+if (!empty($_POST['email-wide'])) {
+  $in_email = $_POST['email-wide'];
+} else {
+  $in_email = $_POST['email-narrow'];
+}
+
+if (!empty($_POST['phone-wide'])) {
+  $in_phone = $_POST['phone-wide'];
+} else {
+  $in_phone = $_POST['phone-narrow'];
+}
+
+if (!empty($_POST['message-wide'])) {
+  $in_message = $_POST['message-wide'];
+} else {
+  $in_message = $_POST['message-narrow'];
+}
+
+if (empty($in_name) 	||
+   empty($in_phone) 	||
+   empty($in_message)	||
+   !filter_var($in_email,FILTER_VALIDATE_EMAIL)) {
 	echo "No arguments Provided!";
 	return false;
-   }
-
-$name = $_POST['name'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+}
 
 // Create the email and send the message
-$to = 'marc.eliot.stein@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "LPGDivorce.com:  $name";
-$email_body = "You have received a new message on LPGDivorce.com.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@lpgdivorce.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $email_address";
+$to = 'marc.eliot.stein@gmail.com';
+$email_subject = "LPGDivorce.com:  $in_name";
+$email_body = "You have received a new message on LPGDivorce.com.\n\n"."Here are the details:\n\nName: $in_name\n\nEmail: $in_email\n\nPhone: $in_phone\n\nMessage:\n$in_message";
+$headers = "From: noreply@lpgdivorce.com\n";
+$headers .= "Reply-To: $in_email";
 mail($to,$email_subject,$email_body,$headers);
 return true;
 ?>
