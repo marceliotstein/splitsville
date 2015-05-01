@@ -270,7 +270,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #000;
+  color: #fff;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -298,6 +298,9 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
+  }
+  .navbar-default .nav li a {
+    color: #000;
   }
   .navbar-default .navbar-brand {
     font-size: 2em;
