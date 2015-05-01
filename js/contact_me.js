@@ -7,11 +7,32 @@ $(function() {
         },
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
-            // get values from FORM
-            var name = $("input#name").val();
-            var email = $("input#email").val();
-            var phone = $("input#phone").val();
-            var message = $("textarea#message").val();
+            // get values from FORM, either wide or narrow
+
+            if ($("input#name-wide").val()) {
+              var name = $("input#name-wide").val();
+            } else {
+              var name = $("input#name-narrow").val();
+            }
+
+            if ($("input#email-wide").val()) {
+              var email = $("input#email-wide").val();
+            } else {
+              var email = $("input#email-narrow").val();
+            }
+
+            if ($("input#phone-wide").val()) {
+              var phone = $("input#phone-wide").val();
+            } else {
+              var phone = $("input#phone-narrow").val();
+            }
+
+            if ($("textarea#message-wide").val()) {
+              var message = $("textarea#message-wide").val();
+            } else {
+              var message = $("textarea#message-narrow").val();
+            }
+            
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
