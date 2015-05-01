@@ -29,7 +29,7 @@ if (!empty($_POST['message-wide'])) {
 }
 */
 
-if (!empty($_POST['name-wide'])) {
+if (!empty($_POST['name'])) {
   $name = $_POST['name'];
 }
 if (!empty($_POST['email'])) {
