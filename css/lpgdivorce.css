@@ -328,7 +328,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../photos/lpgfront.jpg');
+  background-image: url('../photos/lpg-front.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -374,7 +374,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 1200px) {
   header {
-    background-image: url('../photos/lpgfrontwide.jpg');
+    background-image: url('../photos/lpg-frontwide.jpg');
   }
   header .intro-text {
     text-align: right;
