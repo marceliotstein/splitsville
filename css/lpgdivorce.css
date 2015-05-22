@@ -51,6 +51,17 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+.webcredit {
+  color: #888888;
+  line-height: .4;
+}
+.webcredit a {
+  color: #888888;
+  line-height: .4;
+}
+.webcredits {
+  margin-top: 40px;
+}
 .height-responsive {
   display: block;
   width: auto;
@@ -779,7 +790,7 @@ section#contact .text-danger {
   text-align: center;
 }
 footer {
-  padding: 25px 0;
+  padding: 25px 0 5px 0;
   text-align: center;
 }
 footer span.copyright {
