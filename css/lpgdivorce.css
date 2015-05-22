@@ -789,6 +789,10 @@ section#contact .text-danger {
 .contactform-narrow {
   text-align: center;
 }
+.help-block ul {
+  font-weight: bold;
+  list-style-type: none;
+}
 footer {
   padding: 25px 0 5px 0;
   text-align: center;
