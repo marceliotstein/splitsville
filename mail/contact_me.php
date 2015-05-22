@@ -25,7 +25,7 @@ if (empty($name) 	||
 }
 
 // Create the email and send the message
-$to = 'marc.eliot.stein@gmail.com';
+$to = 'laurence@lpgdivorce.com';
 $email_subject = "LPGDivorce.com:  $name";
 $email_body = "You have received a new message on LPGDivorce.com.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@lpgdivorce.com\n";
