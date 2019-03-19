@@ -1,0 +1,15 @@
+
+
+# BEGIN HTTPS Redirection Plugin
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+# END HTTPS Redirection Plugin
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^lpgdivorce\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lpgdivorce\.com$
+RewriteRule ^bio$ "https\:\/\/lpgdivorce\.com\/" [R=301,L]
+
